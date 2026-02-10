@@ -1,7 +1,7 @@
 import React from "react";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
-import Setting from "./_components/setting/page";
+import Uploads from "./_components/uploads/page";
 
 const DashboardLayout = ({
   children,
@@ -14,7 +14,7 @@ const DashboardLayout = ({
 
   return (
     <div className="bg-slate-100 h-screen">
-      <Setting />
+      <Uploads />
     </div>
   );
 };

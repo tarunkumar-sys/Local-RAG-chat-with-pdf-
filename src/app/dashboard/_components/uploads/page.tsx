@@ -2,7 +2,7 @@ import FileUpload from "../file-upload";
 import ChatComponent from "../file-uploadschat";
 import { Button } from "@/components/ui/button";
 //  this is for backend...
-export default function Setting() {
+export default function Uploads() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-5">
       {/* <Button className="mt-2 ml-5">Back</Button> */}
